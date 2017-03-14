@@ -1,0 +1,165 @@
+/*
+Theme Name: RedEon_Production
+Theme URI: RedEon_Production.com
+Author: RedEon7
+Description: Theme CSS site RedEon Production
+Version: 1.0
+License: RedEon
+License URI: RedEon_Production.com
+Text Domain: RedEon Production */
+
+/* CSS DU CORPS DU BODY AU FOOTER */
+
+body{
+	background-color:black;
+	color: black;
+}
+
+*{ 
+	margin:10px;
+	padding:0px;
+	
+}
+
+a{
+	color: darkred;
+}
+
+nav{
+	text-align: left;
+	width: 210px;
+	float: left;
+	margin-left: 10px;
+	position: fixed;
+}
+
+h3{
+	text-align: center;
+}
+
+fieldset{
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+}
+
+input{
+	display: inline;
+}
+
+footer{
+	text-align: center;
+}
+
+/* CSS DES IDs */
+
+#menu{
+	padding: 0; margin: 0;
+	text-align: center;
+	background-image:url(images/bgm.png);
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+#menu li{
+	display: inline;
+	margin: 0px;
+	list-style: none;
+}
+
+#menu a{
+	display: inline-block;
+}
+
+/* CSS DES CLASS */
+
+.txtpr{ /*Une classe définie, ici je l'ai utilisée avec un DIV*/
+    text-align: Justify; /*Définit l'alignement du texte*/
+    border:2px inset;	/*Définit l'épaisseur de la bordure*/
+    border-color: darkred;	/*Définit la couleur de la bordure*/
+    background-color:rgba(0,0,0,1)    /* 70% opaque white*/ ;
+    box-shadow: 12px 12px 0px rgba(0,0,0,0.4); /*Définit l'ombre de la bordure et sa couleur. RGBA fonctionne de tel sortes (rouge 0/255,jaune 0/255,bleu 0/255,opacité 0.0/1)*/
+    width:900px; /*Définit la taille de la bordure */
+    margin-left: 300px; /*Définit son margin, 0 auto est le plus souvent utilisé */
+	color:white; /*Couleur du texte à l'intérieur*/
+	padding: 10px;
+}
+
+.formulaire{ /*Une classe définie, ici je l'ai utilisée avec un DIV*/
+	background-image: url(images/redprod.png);
+	background-repeat: no-repeat;
+	background-position: center;
+    text-align: center; /*Définit l'alignement du texte*/
+    border:2px inset;	/*Définit l'épaisseur de la bordure*/
+    border-color: darkred;	/*Définit la couleur de la bordure*/
+    box-shadow: 12px 12px 0px rgba(0,0,0,0.4); /*Définit l'ombre de la bordure et sa couleur. RGBA fonctionne de tel sortes (rouge 0/255,jaune 0/255,bleu 0/255,opacité 0.0/1)*/
+    width:900px; /*Définit la taille de la bordure */
+	height: 350px;
+    margin-left: 300px; /*Définit son margin, 0 auto est le plus souvent utilisé */
+	color:white; /*Couleur du texte à l'intérieur*/
+	padding: 10px;
+}
+
+.imageflottante{
+	border: 1px solid black;
+	border-radius: 4px;
+	padding: 1px;
+	float: left; /* Marche right aussi */
+	
+}
+
+.imageflottante:hover{
+	box-shadow: 0 0 2px 1px darkred;
+	
+}
+
+.imageflottante2{
+	border: 1px solid black;
+	border-radius: 4px;
+	padding: 1px;
+	float: right; /* Marche right aussi */
+	
+}
+
+.imageflottante2:hover{
+	box-shadow: 0 0 2px 1px darkred;
+	
+}
+
+.imglink{
+	border: 1px solid black;
+	border-radius: 4px;
+	padding: 1px;
+}
+
+.imglink:hover{
+	box-shadow: 0 0 2px 1px darkred;	
+}
+
+.vertical-menu {
+    width: 210px;
+}
+
+.vertical-menu a {
+    background-color: none;
+    color: white;
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+	border: 1px solid darkred
+
+}
+
+.vertical-menu a:hover {
+    background-color: rgba(66,6,6,0.5);
+}
+
+.vertical-menu a.active {
+    background-color: darkred;
+    color: white;
+}
+
+

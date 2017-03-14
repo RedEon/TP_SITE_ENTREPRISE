@@ -1,0 +1,51 @@
+<!--Document au format html5-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>RedEon Production</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="icon" type="image/png" href="images/icon.png" />
+	</head>
+	
+	<body>
+		<!--Entête de la page-->
+		<h1><a href="index.html"><img src="images/titre.png"center/></h1>
+		
+		
+		<!--Menu--> <!--href crée un nouveau lien / img src crée une nouvelle image / li crée une liste -->
+		<ul id="menu"><!--
+			--><li><a href="index.html"><img src="images/btn_bn.png" alt="Présentation"/></a></li><!--
+			--><li><a href="partenaires.html"><img src="images/btn_cb.png" alt="Partenaires"/></a></li><!-- 		
+			--><li><a href="projets.html"><img src="images/btn_fp.png" alt="Projets"/></a></li><!--				
+			--><li><a href="contact.html"><img src="images/btn_tb.png" alt="Contact"/></a></li>					
+							
+	
+		</ul>
+
+		<div class="formulaire">
+			<!--formulaires-->
+			<form method="POST/GET" action="#">
+			<!--contenu formulaire-->
+			<label for="nom">Nom</label>:<input type="text" name="nom" id="nom" required AUTOFOCUS/>
+			<br/>
+			<label for="prenom">Prenom</label>:<input type="text" name="prenom" id="prenom" placeholder="Prenom :" size="30" maxlenght="20"required/>
+			<br/>
+			<label for="entreprise">Entreprise</label>:<input type="text" name="entreprise" id="entreprise"required/>
+			<br>
+			<label for="sujet">Sujet</label>:<input type="text" name="sujet" id="sujet"required/>
+			<br>
+			<label for="message">Message</label> : <textarea name="message" id="message" rows="5" cols="50"required></textarea>
+			<br>
+			<input type="submit" name="Envoyer" value="Envoyer" onclick="affiche();">
+			</form>
+		</div>
+
+		<footer>
+			<a href="#">Haut de page</a><a href="mailto:estradia_the_game@hotmail.com">Contacter le développeur</a>
+			<p style="color:white">Copyright RedEon Production - Tout droits réservés<br />
+			<p><img src="images/lds.jpg" alt="lds"/></p>
+		</footer>
+		
+	</body>
+</html>
